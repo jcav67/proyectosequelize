@@ -1,0 +1,28 @@
+{
+  "name": "pruebatecnicagently",
+  "version": "1.0.0",
+  "description": "Prueba tecnica backend para la empresa Gently ",
+  "main": "app.js",
+  "keywords": [
+    "nodeJs",
+    "mysql",
+    "sequelize",
+    "backend"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Juan Camilo Arango Valle",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.16.1"
+  }
+}
